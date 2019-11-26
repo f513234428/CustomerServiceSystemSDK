@@ -1,0 +1,6 @@
+framework module Pods_CustomerServiceSystemDemo_Tests {
+  umbrella header "Pods-CustomerServiceSystemDemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

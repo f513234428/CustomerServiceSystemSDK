@@ -1,0 +1,6 @@
+framework module MQTTDemo {
+  umbrella header "MQTTDemo.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module CustomerServiceSystemDemo {
+  umbrella header "CustomerServiceSystemDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

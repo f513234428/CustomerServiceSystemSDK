@@ -1,0 +1,47 @@
+{
+  "name": "CustomerServiceSystemDemo",
+  "version": "0.1.0",
+  "summary": "A short description of CustomerServiceSystemDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/f513234428/CustomerServiceSystemDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "f513234428": "513234428@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/f513234428/CustomerServiceSystemDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CustomerServiceSystemDemo/Classes/**/*",
+  "resource_bundles": {
+    "CustomerServiceSystemDemo": [
+      "CustomerServiceSystemDemo/Classes/MQTTLibBundle.bundle"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "MQTTClient": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "AvoidCrash": [
+      "~> 2.5.2"
+    ],
+    "ProgressHUD": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ]
+  }
+}

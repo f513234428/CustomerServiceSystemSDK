@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AvoidCrash (2.5.2)
+  - CustomerServiceSystemDemo (0.1.0):
+    - AFNetworking
+    - AvoidCrash (~> 2.5.2)
+    - IQKeyboardManager
+    - MQTTClient
+    - ProgressHUD
+    - SDWebImage
+  - IQKeyboardManager (6.5.4)
+  - MQTTClient (0.15.3):
+    - MQTTClient/Core (= 0.15.3)
+  - MQTTClient/Core (0.15.3):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.3):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.3)
+  - ProgressHUD (2.51)
+  - SDWebImage (5.3.2):
+    - SDWebImage/Core (= 5.3.2)
+  - SDWebImage/Core (5.3.2)
+
+DEPENDENCIES:
+  - CustomerServiceSystemDemo (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - AvoidCrash
+    - IQKeyboardManager
+    - MQTTClient
+    - ProgressHUD
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  CustomerServiceSystemDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AvoidCrash: 28c6916fe19bd2b84126b8dec7cbe61c9a12741d
+  CustomerServiceSystemDemo: ad5baede3ed75b4a4bbf0a9992513becf3d923fa
+  IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
+  MQTTClient: 0dfa04e789479c2e461786464969895c1fcb0875
+  ProgressHUD: 54b4c2fa202bf3da7dddc1c698ae4e6376333bd9
+  SDWebImage: 6ac2eb96571bff96ecde31a987172c5934a0eb7d
+
+PODFILE CHECKSUM: d4b9fa152731aebfdcb48e4545d7d68ff4c8357f
+
+COCOAPODS: 1.8.1
